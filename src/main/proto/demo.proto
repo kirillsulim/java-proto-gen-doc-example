@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "org.su0.example.proto";
+
+/**
+ * This is comment for documentation
+ */
+message Demo {
+  string data = 1; // This is a field description
+}
